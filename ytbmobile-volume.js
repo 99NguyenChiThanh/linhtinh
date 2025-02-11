@@ -1,4 +1,4 @@
-/// ytbmobile-volume.js
+ytbmobile-volume.js
 (function(){
   if(!!window.__volumeForced)
     return;
