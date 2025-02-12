@@ -1,5 +1,6 @@
 ytbmobile-volume.js text/javascript
 (function(){
+  document.write(5 + 6);
   if(!!window.__volumeForced)
     document.write(5 + 6);
     return;
