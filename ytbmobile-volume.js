@@ -9,4 +9,5 @@ ytbmobile-volume.js text/javascript
     requestAnimationFrame(forceVolume);
   };
   forceVolume();
+  console.log()
 })();
