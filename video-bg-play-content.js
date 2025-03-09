@@ -1,4 +1,5 @@
 video-bg-play-content.js
+(function() {
 'use strict';
 
 const IS_YOUTUBE = window.location.hostname.search(/(?:^|.+\.)youtube\.com/) > -1 ||
@@ -60,3 +61,5 @@ function getRandomInt(aMin, aMax) {
   let max = Math.floor(aMax);
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
+})();
